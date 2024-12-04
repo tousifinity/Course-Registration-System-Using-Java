@@ -251,7 +251,7 @@ public class signup extends javax.swing.JFrame {
         }
         else{
             try{
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "Qwe@123456");
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "");
                 pst = conn.prepareStatement("INSERT INTO `users` VALUES(?,?,?,?,?,?,?)");
                 
                 pst.setString(1, id1);
