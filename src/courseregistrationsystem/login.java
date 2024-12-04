@@ -200,7 +200,7 @@ public class login extends javax.swing.JFrame {
         
         else{
             try{
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem?", "root", "Qwe@123456");
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem?", "root", "password");
                 pst = conn.prepareStatement("SELECT * FROM `users` WHERE username = ? AND password = ? AND role = ?");
                 
                 pst.setString(1, uname);
