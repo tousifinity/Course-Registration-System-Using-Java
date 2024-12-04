@@ -19,7 +19,7 @@ public class managecourse extends javax.swing.JFrame {
      * Creates new form managecourse
      */
     private static final String username = "root";
-    private static final String password = "Qwe@123456";
+    private static final String password = "";
     private static final String dataconn = "jdbc:mysql://localhost:3306/courseregsystem";
     
     dbconnection conn = null;
