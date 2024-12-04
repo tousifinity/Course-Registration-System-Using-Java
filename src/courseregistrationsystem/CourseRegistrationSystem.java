@@ -6,7 +6,7 @@ package courseregistrationsystem;
 
 /**
  *
- * @author tousi
+ * @author tousif
  */
 public class CourseRegistrationSystem {
 
