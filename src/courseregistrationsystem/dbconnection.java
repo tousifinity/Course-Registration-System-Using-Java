@@ -21,7 +21,7 @@ public class dbconnection {
        
     try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "Qwe@123456");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "");
 //            System.out.println("Connection created");
             
             conn.close();
