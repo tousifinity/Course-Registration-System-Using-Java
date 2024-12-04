@@ -33,7 +33,7 @@ public class myprofile extends javax.swing.JFrame {
         
          try{
             //Class.forName("com.mysql.jbdc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "Qwe@123456");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/courseregsystem", "root", "");
                 
             pst = conn.prepareStatement("SELECT fname, lname, id, username, email FROM `users` WHERE username = ? ");
             pst.setString(1, user);
